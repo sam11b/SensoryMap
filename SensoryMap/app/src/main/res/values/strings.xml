@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Sensory Map</string>
+
+    <!-- Labels for toolbar buttons -->
+    <string name="filters">Filters</string>
+    <string name="list">List</string>
+    <string name="map">Map</string>
+    <string name="settings">Settings</string>
+
+    <!-- Labels for inside details page -->
+    <string name="distance">%d mi</string>
+    <string name="common_tags">Common Tags</string>
+    <string name="reviews">Reviews</string>
+    <string name="review_button">+ Add</string>
+    <string name="review_tags">Tags: %s</string>
+    <string name="share_button">Share </string>
+
+    <!-- Labels for inside review page -->
+    <string name="review_header">Reviewing: %s</string>
+    <string name="comments">ADDITIONAL COMMENTS</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- Placeholders for placeholder screens -->
+    <string name="filter_placeholder">Filters are not currently available.</string>
+    <string name="settings_placeholder">Customization settings are not currently available.</string>
+</resources>

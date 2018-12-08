@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/list_background"
+    tools:context="hackingheroes.sensorymap.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/browse_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <Button
+            android:id="@+id/filters_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_baseline_list_24px"
+            android:layout_gravity="start"
+            android:onClick="filterButtonPressed"
+            />
+
+        <Button
+            android:id="@+id/list_button"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:background="@drawable/button_pressed"
+            android:onClick="listButtonPressed"
+            android:padding="0dp"
+            android:text="@string/list"
+            android:textColor="@color/colorPrimary"
+            tools:layout_editor_absoluteX="104dp"
+            tools:layout_editor_absoluteY="8dp" />
+
+        <Button
+            android:id="@+id/map_button"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:background="@drawable/button_border"
+            android:onClick="mapButtonPressed"
+            android:padding="0dp"
+            android:text="@string/map"
+            android:textColor="@color/text_light"
+            tools:layout_editor_absoluteX="192dp"
+            tools:layout_editor_absoluteY="8dp" />
+
+        <Button
+            android:id="@+id/settings_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_baseline_more_vert_24px"
+            android:layout_gravity="end"
+            android:onClick="settingsButtonPressed"
+            />
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+        android:id="@+id/fragment_placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/browse_toolbar">
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5D92F8</color>
+    <color name="colorPrimaryDark">#0D2C69</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="text_light">#FFFFFF</color>
+    <color name="text_medium">#484848</color>
+    <color name="text_dark">#202020</color>
+
+    <color name="list_background">#E0E0E0</color>
+    <color name="list_foreground">#FFFFFF</color>
+    <color name="bright_orange">#FF4E00</color>
+    <color name="sea_serpent">#50C9CE</color>
+    <color name="medium_purple">#9883E5</color>
+    <color name="gross_green">#FF9F1C</color>
+</resources>
